@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Montserrat-VariableFont_wght";
+    src: url(./Data/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+Body{
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1{
+    width: 720px;
+    
+}
+
+.d2{
+    width: 720px;
+    margin-top: 50px;
+    margin-left: 261px;
+    
+}
+
+section{
+    margin-top: 100px;
+    margin-left: 171px;
+}
+
+p{
+   font-family: "Montserrat-VariableFont_wght";
+   font-size: 58px;
+   font-weight: 800;
+   line-height: 30px;
+   text-align: left;
+}
+
+.p1{
+    width: 539px;
+    font-family: "Montserrat-VariableFont_wght";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #737373; 
+}
+.b1{
+    width: 185px;
+    height: 45px;
+    border-radius: 35px;
+    background-color:#00A0C1;
+    border: none;
+    color: #FFFFFF;
+}
+
+.b2{
+    width: 150px;
+    height: 45px;
+    border-radius: 35px;
+    background:none;
+    border:1px solid #00A0C1;
+    color: #00A0C1;
+}
+
+.column{
+    height: 619px;
+    width: 328px;
+    border-radius: 10px;
+    padding: 40px;
+    background-color:#FFFFFF;
+}
+
+.p2{
+    font-family: "Montserrat-VariableFont_wght";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0px;
+    
+    
+}
+.b3{
+    background-color:#FFA62B;
+    color:#FFFFFF;
+    height: 58px;
+    width: 248px;
+    left: 40px;
+    top: 521px;
+    border-radius: 5px;
+    border: none;
+}
+
+label{
+    height: 24px;
+    width: 50px;
+    font-family: "Montserrat-VariableFont_wght";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+    text-align: left;
+}
+
+input{
+    height: 50px;
+    width: 245px;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    color: #737373;
+    border: 1px solid #BDBDBD;
+}
+
+select{
+    height: 50px;
+    width: 248px;
+    border-radius: 5px;
+    background-color:#F9F9F9;
+    color: #737373;
+    border: 1px solid #BDBDBD;
+}
+    
+}
